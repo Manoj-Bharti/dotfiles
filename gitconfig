@@ -1,0 +1,9 @@
+[user]
+	name = Manoj Bharti
+	email = manoj.dec22@gmail.com
+[pull]
+	rebase = preserve
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
