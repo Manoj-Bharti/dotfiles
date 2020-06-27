@@ -1,4 +1,14 @@
-- clean: []
+- clean: ['~']
+
 - link: 
-  ~/.zshrc: zshrc
-- shell: []
+    ~/.zshrc: 
+    ~/.fzf.zsh: 
+    ~/.oh-my-zsh: ohmyzsh
+    ~/.nvm: 
+
+- create: 
+  - ~/.oh-my-zsh
+  - ~/.nvm        
+
+- shell: 
+  - git submodule update --init --recursive
