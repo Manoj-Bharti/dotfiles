@@ -5,21 +5,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# for zsh autosuggetions
-source $(brew --prefix)/share/antigen/antigen.zsh
-
-# It's needed otherwise fuzzy completions wont work and also plugin needs to be added
-# Its due to the oh-my-zsh
-
-export FZF_BASE=/usr/local/Cellar/fzf/0.21.1/install
-
-
-antigen bundle zsh-users/zsh-autosuggestions
 plugins=(
 	zsh-autosuggestions
 	git
     zsh-syntax-highlighting
-    fzf
 )
 
 # Path to your oh-my-zsh installation.

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+(
+    "${PWD}/fzf/install" --all --no-bash --no-fish --64
+)

@@ -12,3 +12,7 @@
 
 - shell: 
   - git submodule update --init --recursive
+  - command: ./post_install
+    stdin: true
+    stdout: true
+    stderr: true
