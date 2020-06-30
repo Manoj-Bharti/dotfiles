@@ -2,4 +2,5 @@
 
 (
     "${PWD}/fzf/install" --all --no-bash --no-fish --64
+    "${PWD}/nvm/nvm.sh"
 )
